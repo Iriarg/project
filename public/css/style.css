@@ -1,6 +1,51 @@
 body {
+  background-color: rgb(13, 202, 139);
   font-weight: bolder;
   font-style: blue;
+}
+
+.members {
+  display: flex;
+  justify-content: space-around;
+}
+.members #one, .members #two, .members #three, .members #four {
+  size: 20%;
+}
+
+.CrewPaz {
+  background-image: url(/public/Assets/Pazfiltro.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+.CrewPaz #one:hover {
+  opacity: 0;
+}
+
+.CrewIria {
+  background-image: url(/public/Assets/Iria_filtro-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+.CrewIria #three:hover {
+  opacity: 0;
+}
+
+.CrewSara {
+  background-image: url(/public/Assets/Sarafiltro.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+.CrewSara #two:hover {
+  opacity: 0;
+}
+
+.CrewEsther {
+  background-image: url(/public/Assets/Esther_filtro-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+}
+.CrewEsther #four:hover {
+  opacity: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
