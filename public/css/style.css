@@ -1,6 +1,5 @@
-body {
-  font-weight: bolder;
-  font-style: blue;
+header {
+  background: black url(public/banner.jpg);
 }
 
 /*# sourceMappingURL=style.css.map */
