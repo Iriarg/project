@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sourceRoot":"","sources":["../../src/sass/style.scss"],"names":[],"mappings":"AAAA;EACI","file":"style.css"}
+=======
+{"version":3,"sourceRoot":"","sources":["../../src/sass/style.scss"],"names":[],"mappings":"AAAA;EACI;EACA;;AAEI;EACI;EACA","file":"style.css"}
+>>>>>>> b765922dac9bdd186df282170d3a7a8b9bbe0fb7
