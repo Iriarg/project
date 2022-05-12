@@ -1,7 +1,52 @@
+@import url("http://fonts.cdnfonts.com/css/din-alternate");
+@import url("http://fonts.cdnfonts.com/css/bradley-hand-2");
 body {
   background-color: rgb(13, 202, 139);
   font-weight: bolder;
   font-style: blue;
+}
+body #keywords {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Helvetica, arial, "Helvetica Neue";
+}
+body #keywords h3 {
+  color: #FFB9B8;
+  background-color: #003C76;
+  border: 5px;
+  padding: 10px;
+}
+body #tool h2 {
+  text-align: center;
+  color: #FFE8E8;
+  background-color: #003C76;
+  margin-bottom: 0%;
+  font-family: "DIN Alternate";
+  font-style: bold;
+}
+body #tool section {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  color: #978ee9;
+  background-color: #E8EAFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body #tool section ul li {
+  list-style-type: none;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+body #tool section ul li:before {
+  content: "-";
+  padding-right: 5px;
+}
+body footer {
+  font-family: "Bradley Hand", sans-serif;
+  text-align: center;
+}
+body footer span {
+  font-family: sans-serif;
 }
 
 .members {

@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "proyecto-1",
   "version": "1.0.0",
   "main": "index.js",
@@ -19,4 +20,19 @@
   "devDependencies": {
     "sass": "^1.51.0"
   }
+=======
+    "name": "proyecto-1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass-watch": "sass --watch src/sass:public/css"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "sass": "^1.51.0"
+    }
+>>>>>>> 356326f8af8fa64e1c769bcfc48b02b20bd10ae7
 }
